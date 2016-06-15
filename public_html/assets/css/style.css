@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/06/2016, 21:36:14
+    Author     : samue
+*/
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  
+}
+h1{
+    color: white;
+    font-weight: bold;
+    
+}
+h2{
+    color:white;
+}
+
+#linha1home{
+    min-height: 600px;    
+}
+#alugar{
+    min-width: 50%;
+    background-color: red;
+}
+#divulgar{
+    width: 50%;
+    background-color: green;
+}
+#linha2home{
+    height: 600px;
+}
+
+#img-inicial{
+    background-image: url(../../assets/img/buildings-498198_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.btn-transparent{
+  outline:white solid 0.8px;
+  /*opacity: 0.2; */
+  background-color: transparent;
+  padding: 15px 18px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 900;
+  border: none;
+  margin: 0;
+  box-shadow: 0px 2px 3px #444;
+  
+}
+.btn-transparent:hover {
+   background-color: whitesmoke;
+   color:gray;
+   opacity: 0.9; 
+}
